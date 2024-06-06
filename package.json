@@ -1,5 +1,6 @@
 {
   "name": "todo",
+  "homepage": "TODOApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.23.0"
   }
 }
