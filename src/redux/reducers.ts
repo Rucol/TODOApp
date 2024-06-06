@@ -1,0 +1,10 @@
+
+import { combineReducers } from 'redux';
+import todoReducer from './todoReducer.ts';
+import Contact from '../components/Contact.tsx';
+
+const rootReducer = combineReducers({
+  todo: todoReducer,
+});
+
+export default rootReducer;
